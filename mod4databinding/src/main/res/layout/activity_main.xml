@@ -5,6 +5,10 @@
 
     <data>
         <variable
+            name="s"
+            type="Integer"
+            />
+        <variable
             name="u"
             type="com.eni.mod4databinding.User" />
     </data>
