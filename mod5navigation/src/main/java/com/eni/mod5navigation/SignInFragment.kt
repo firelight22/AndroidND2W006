@@ -25,12 +25,16 @@ class SignInFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        fsib.buttonSignIn.setOnClickListener(
-            Navigation.createNavigateOnClickListener(R.id.signInToHome)
-        )
-        //fsib.buttonSignIn.setOnClickListener {
-        //    Navigation.findNavController(view).navigate(R.id.signInToHome)
-        //}
+        //fsib.buttonSignIn.setOnClickListener(
+        //    Navigation.createNavigateOnClickListener(R.id.signInToHome)
+        //)
+        fsib.buttonSignIn.setOnClickListener {
+            if((0..3).random() >1)
+                Navigation.findNavController(view).navigate(R.id.signInToHome)
+            else{
+                Navigation.findNavController(view).navigate(R.id.signInToHome)
+            }
+        }
     }
 
 }

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/whiteFragment">
+
+    <fragment
+        android:id="@+id/whiteFragment"
+        android:name="com.eni.mod5colorme.WhiteFragment"
+        android:label="WhiteFragment" >
+        <action
+            android:id="@+id/whiteToRedFrag"
+            app:destination="@id/redFragment" />
+        <action
+            android:id="@+id/whiteToPinkFrag"
+            app:destination="@id/pinkFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/redFragment"
+        android:name="com.eni.mod5colorme.RedFragment"
+        android:label="RedFragment" >
+        <action
+            android:id="@+id/redToOrangeFrag"
+            app:destination="@id/orangeFragment" />
+        <action
+            android:id="@+id/redToBlueFrag"
+            app:destination="@id/blueFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pinkFragment"
+        android:name="com.eni.mod5colorme.PinkFragment"
+        android:label="PinkFragment" >
+        <action
+            android:id="@+id/pinkToGreenFrag"
+            app:destination="@id/greenFragment" />
+        <action
+            android:id="@+id/pinkToYellowFrag"
+            app:destination="@id/yellowFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/yellowFragment"
+        android:name="com.eni.mod5colorme.YellowFragment"
+        android:label="fragment_yellow"
+        tools:layout="@layout/fragment_yellow" />
+    <fragment
+        android:id="@+id/orangeFragment"
+        android:name="com.eni.mod5colorme.OrangeFragment"
+        android:label="fragment_orange"
+        tools:layout="@layout/fragment_orange" />
+    <fragment
+        android:id="@+id/blueFragment"
+        android:name="com.eni.mod5colorme.BlueFragment"
+        android:label="fragment_blue"
+        tools:layout="@layout/fragment_blue" />
+    <fragment
+        android:id="@+id/greenFragment"
+        android:name="com.eni.mod5colorme.GreenFragment"
+        android:label="fragment_green"
+        tools:layout="@layout/fragment_green" />
+</navigation>

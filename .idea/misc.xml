@@ -12,9 +12,27 @@
         <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod4findviewbyid/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod4tpquestionrep/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod4tprandom/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod5colorme/src/main/res/layout-land/activity_main.xml" value="0.184375" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod5colorme/src/main/res/layout/activity_main.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod5colorme/src/main/res/layout/fragment_blue.xml" value="0.1" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod5colorme/src/main/res/layout/fragment_green.xml" value="0.1" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod5colorme/src/main/res/layout/fragment_orange.xml" value="0.1" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod5colorme/src/main/res/layout/fragment_pink.xml" value="0.1" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod5colorme/src/main/res/layout/fragment_red.xml" value="0.1" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod5colorme/src/main/res/layout/fragment_white.xml" value="0.253125" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod5colorme/src/main/res/layout/fragment_yellow.xml" value="0.1" />
         <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod5navigation/src/main/res/layout/activity_main.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod5navigation/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod5navigation/src/main/res/layout/fragment_sign_in.xml" value="0.33" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod5safeargs/src/main/res/layout/activity_main.xml" value="0.19" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod5safeargs/src/main/res/layout/fragment_form.xml" value="0.253125" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod5safeargs/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod5tphistoire/src/main/res/layout/activity_main.xml" value="0.253125" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod5tphistoire/src/main/res/layout/fragment_form.xml" value="0.253125" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod5tphistoire/src/main/res/layout/fragment_histoire.xml" value="0.253125" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod6intent/src/main/res/layout/activity_destination.xml" value="0.253125" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod6intent/src/main/res/layout/activity_main.xml" value="0.253125" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod6intent/src/main/res/layout/content_destination.xml" value="0.253125" />
       </map>
     </option>
   </component>
