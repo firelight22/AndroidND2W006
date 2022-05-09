@@ -49,7 +49,7 @@ class RelanceFragment : Fragment() {
                 Intent.ACTION_SENDTO,
                 Uri.parse("smsto:${frb.editTextPhone.text.toString()}")
             )
-            intentSms.putExtra("sms_body","le cors de mon message")
+            intentSms.putExtra("sms_body","le corps de mon message")
             startActivity(intentSms)
         }
     }
