@@ -24,7 +24,8 @@ class MainActivity : AppCompatActivity() {
         //    Uri.parse("geo:46.316,-0.47428")
         //)
         //startActivity(intentSms)
-    }
+
+     }
 
     override fun onRequestPermissionsResult(
         requestCode: Int,
@@ -34,10 +35,18 @@ class MainActivity : AppCompatActivity() {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         if(requestCode == REQUEST_CODE_CALL &&
             grantResults[0] == 0){
-            var intentSms = Intent(
+            var intentCall = Intent(
                 Intent.ACTION_CALL,
                 Uri.parse("tel:061234578")
             )
+            startActivity(intentCall)
+
+            //Envoi de SMS via Intent
+            val intentSms = Intent(
+                Intent.ACTION_SENDTO,
+                Uri.parse("smsto:0612345678")
+            )
+            intentSms.putExtra("sms_body","le cors de mon message")
             startActivity(intentSms)
         }
     }

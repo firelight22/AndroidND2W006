@@ -24,6 +24,7 @@
             <option value="$PROJECT_DIR$/mod5tphistoire" />
             <option value="$PROJECT_DIR$/mod6intent" />
             <option value="$PROJECT_DIR$/mod6intentimpl" />
+            <option value="$PROJECT_DIR$/mod6tppermissions" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
