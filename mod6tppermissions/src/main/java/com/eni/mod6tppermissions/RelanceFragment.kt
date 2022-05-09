@@ -12,7 +12,7 @@ import android.view.ViewGroup
 import androidx.core.app.ActivityCompat
 import com.eni.mod6tppermissions.databinding.FragmentRelanceBinding
 
-const val REQUEST_CODE_SEND_SMS = 658745
+const val REQUEST_CODE_SEND_SMS = 123456
 class RelanceFragment : Fragment() {
     lateinit var frb : FragmentRelanceBinding
 
@@ -28,11 +28,12 @@ class RelanceFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         //Demander explicitement la permission d'envoyer des sms
         //On associe cette demande à REQUEST_CODE_SEND_SMS
-        frb.button.setOnClickListener {  ActivityCompat.requestPermissions(
-            requireActivity().parent,
-            arrayOf(Manifest.permission.SEND_SMS),
-            REQUEST_CODE_SEND_SMS
-        ) }
+        frb.button.setOnClickListener {
+            requestPermissions(
+                arrayOf(Manifest.permission.SEND_SMS),
+                REQUEST_CODE_SEND_SMS
+            )
+        }
     }
 
     override fun onRequestPermissionsResult(
