@@ -16,12 +16,16 @@ class MainActivity : AppCompatActivity() {
         amb = DataBindingUtil.setContentView(this,R.layout.activity_main)
         //On récupère l'instance du CompteurViewModel
         vm = ViewModelProvider(this)[CompteurViewModel::class.java]
+        vm.compteur.observe(this,
+            {amb.textViewCompteur.text = it?.toString() })
 
         amb.textViewCompteur.text = vm.compteur.toString()
 
         amb.floatingActionButton.setOnClickListener {
             vm.plusUn()
-            amb.textViewCompteur.text = vm.compteur.toString()
+        }
+        amb.floatingActionButtonMoins.setOnClickListener {
+            vm.moinsUn()
         }
     }
 

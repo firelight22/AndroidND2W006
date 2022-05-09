@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         amb = DataBindingUtil.setContentView(this,R.layout.activity_main)
         vm = ViewModelProvider(this)[LancerDeViewModel::class.java]
 
+
         amb.textViewDe.text = vm.valeurDe.toString()
         amb.floatingActionButton.setOnClickListener {
             //lancer le dé
