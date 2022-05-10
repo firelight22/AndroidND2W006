@@ -15,13 +15,14 @@ class MainActivity : AppCompatActivity() {
         amb = DataBindingUtil.setContentView(this,R.layout.activity_main)
         vm = ViewModelProvider(this)[LancerDeViewModel::class.java]
 
+        vm.valeurDe.observe(this,{
+            amb.textViewDe.text = it?.toString()
+        })
 
         amb.textViewDe.text = vm.valeurDe.toString()
         amb.floatingActionButton.setOnClickListener {
             //lancer le dé
             vm.lancerDe()
-            //Afficher la valeur
-            amb.textViewDe.text = vm.valeurDe.toString()
         }
 
     }

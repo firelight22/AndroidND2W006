@@ -26,8 +26,10 @@
             <option value="$PROJECT_DIR$/mod6intentimpl" />
             <option value="$PROJECT_DIR$/mod6tppermissions" />
             <option value="$PROJECT_DIR$/mod7logcat" />
+            <option value="$PROJECT_DIR$/mod8tpde2" />
             <option value="$PROJECT_DIR$/mod8tplancerde" />
             <option value="$PROJECT_DIR$/mod8viewmodel" />
+            <option value="$PROJECT_DIR$/mod9magasinroom" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
