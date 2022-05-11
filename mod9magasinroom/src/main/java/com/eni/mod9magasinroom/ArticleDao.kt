@@ -8,7 +8,7 @@ interface ArticleDao {
     fun insert(a: Article)
 
     @Query("SELECT * FROM Article WHERE id = :id")
-    fun getById(id: Long) : Article
+    suspend fun getById(id: Long) : Article
 
     @Query("SELECT * FROM Article")
     fun getAll(): List<Article>

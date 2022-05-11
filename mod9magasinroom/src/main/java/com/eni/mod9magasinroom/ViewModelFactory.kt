@@ -8,7 +8,7 @@ import java.lang.IllegalArgumentException
 class ViewModelFactory(val application: Application):
 ViewModelProvider.Factory{
     @Suppress("unchecked_cast")
-    override fun <T : ViewModel?> create(modelClass: Class<T>): T {
+    override fun <T : ViewModel> create(modelClass: Class<T>): T {
         if(modelClass.isAssignableFrom(ArticleViewModel::class.java)){
             return ArticleViewModel(
                 MagasinDb.getInstance(application).articleDao(),
