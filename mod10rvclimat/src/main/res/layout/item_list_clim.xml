@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
@@ -10,7 +11,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <TextView
             android:id="@+id/textViewMarque"
@@ -20,7 +21,8 @@
             android:layout_marginTop="16dp"
             android:text="@{clim.marque}"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Mitsubishi" />
 
         <TextView
             android:id="@+id/textViewModele"
@@ -30,7 +32,8 @@
             android:layout_marginTop="16dp"
             android:text="@{clim.modele}"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewMarque" />
+            app:layout_constraintTop_toBottomOf="@+id/textViewMarque"
+            tools:text="LO123ER" />
 
         <TextView
             android:id="@+id/textViewQuantite"
@@ -40,7 +43,8 @@
             android:layout_marginTop="16dp"
             android:text="@{String.valueOf(clim.qteGaz)}"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewModele" />
+            app:layout_constraintTop_toBottomOf="@+id/textViewModele"
+            tools:text="4.5l" />
 
         <TextView
             android:id="@+id/textViewTypeCompresseur"
@@ -50,17 +54,20 @@
             android:layout_marginTop="16dp"
             android:text="@{clim.typeCompresseur}"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewQuantite" />
+            app:layout_constraintTop_toBottomOf="@+id/textViewQuantite"
+            tools:text="Helico" />
 
         <TextView
             android:id="@+id/textViewTypeTelecommande"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:text="@{clim.typeTelecommande}"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Déporté" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
