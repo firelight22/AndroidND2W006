@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/mod10rvclimat" />
             <option value="$PROJECT_DIR$/mod2ihm2" />
             <option value="$PROJECT_DIR$/mod2ihmsimple" />
             <option value="$PROJECT_DIR$/mod2tp1" />
@@ -30,6 +31,7 @@
             <option value="$PROJECT_DIR$/mod8tplancerde" />
             <option value="$PROJECT_DIR$/mod8viewmodel" />
             <option value="$PROJECT_DIR$/mod9magasinroom" />
+            <option value="$PROJECT_DIR$/mod9tpdbvoiture" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1045" />
         <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod10rvclimat/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod10rvclimat/src/main/res/layout/item_list_clim.xml" value="0.184375" />
         <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod2ihm2/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod2ihmsimple/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod2tp1/src/main/res/layout/activity_main.xml" value="0.33" />
@@ -39,6 +41,7 @@
         <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod8tplancerde/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod8viewmodel/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod9magasinroom/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/qrouet/AndroidStudioProjects/mod1Decouverte/mod9tpdbvoiture/src/main/res/layout/activity_main.xml" value="0.33" />
       </map>
     </option>
   </component>
